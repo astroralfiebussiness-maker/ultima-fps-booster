@@ -1,0 +1,28 @@
+# Gradle
+.gradle/
+build/
+*.jar
+
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Run
+run/
+runs/
+bin/
+
+# Generated
+*.class
+*.log

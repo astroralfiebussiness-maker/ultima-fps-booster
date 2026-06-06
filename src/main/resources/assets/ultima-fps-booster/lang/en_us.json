@@ -1,0 +1,8 @@
+{
+  "category.ultimafps.general": "Ultima FPS Booster",
+  "option.ultimafps.enable_advanced_culling": "Enable Advanced Culling",
+  "option.ultimafps.reduce_particles": "Reduce Particles",
+  "option.ultimafps.optimize_chunk_loading": "Optimize Chunk Loading",
+  "option.ultimafps.disable_entity_shadows": "Disable Entity Shadows",
+  "option.ultimafps.optimize_lighting": "Optimize Lighting"
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ultima-fps-booster",
+  "version": "${version}",
+  "name": "Ultima FPS Booster",
+  "description": "Advanced FPS optimization mod for Minecraft using Fabric. Optimizes rendering, culling, and memory management.",
+  "authors": [
+    "astroralfiebussiness-maker"
+  ],
+  "contact": {
+    "homepage": "https://github.com/astroralfiebussiness-maker/ultima-fps-booster"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.ultimafps.UltimaFpsBootstrap"
+    ],
+    "client": [
+      "com.ultimafps.UltimaFpsClient"
+    ]
+  },
+  "mixins": [
+    "ultimafps.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.25",
+    "fabric": "*",
+    "minecraft": "1.20.1"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.ultimafps.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "EntityRenderDispatcherMixin",
+    "WorldRendererMixin",
+    "ChunkRenderingPipelineMixin",
+    "ParticleManagerMixin"
+  ],
+  "client": [
+    "EntityRenderDispatcherMixin",
+    "WorldRendererMixin",
+    "ChunkRenderingPipelineMixin",
+    "ParticleManagerMixin",
+    "GameRendererMixin",
+    "BlockEntityRenderDispatcherMixin",
+    "LevelRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
